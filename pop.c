@@ -13,7 +13,7 @@ void e_pop(stack_t **stack, unsigned int line_number)
 	if (*stack == NULL)
 	{
 		handle_error(line_number, "can't pop an empty stack", *stack, bus.p);
-		return(EXIT_FAILURE);
+		return;
 	}
 
 	*stack = t->next;
