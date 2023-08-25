@@ -1,11 +1,11 @@
 #include "monty.h"
 
 /*
- * push - function to add an element onto the stack
+ * e_push - function to add an element onto the stack
  * @stack: pointer to the stack
  * @line_number - line number of the stack
  * Description: anopcode that pushes elements on to a stack
- * 
+ *
  * Return: nothing
  */
 
