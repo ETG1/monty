@@ -52,7 +52,7 @@ typedef struct instruction_s
   * Description: opcode and its function
   */
 
-typedef struct bus_e
+typedef struct bus_s
 {
 	char *arg;
 	FILE *p;
